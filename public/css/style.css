@@ -1,0 +1,549 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto','Open Sans', Verdana, sans-serif; /* Définition de la police */
+}
+
+/* DEBUT HEADER */ 
+
+/* Couleur de fond de la barre de navigation */
+#background-navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ff3333;
+}
+
+#navbarCollapse {
+    margin-left: 20px;
+}
+
+/* Titre "Jean Forteroche */
+#navbar-title {
+    color: #ff3333;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+/* Icône "Accueil" */
+.fa-home {
+    color : #ff3333;
+    font-size: 1.2em;
+}
+
+/* Icône "Livres" */
+.fa-book {
+    color : #ff3333;
+    font-size: 1.2em;
+}
+
+/* Icône "Contact" */
+.fa-envelope {
+    color : #ff3333;
+    font-size: 1.2em;
+}
+
+/* Icône "Connexion" */
+.fa-sign-in-alt {
+    color : #ff3333;
+    font-size: 1.2em;
+}
+
+/* Icône "Déconnexion" */
+.fa-sign-out-alt {
+    color : #ff3333;
+    font-size: 1.2em
+}
+.dropdown-item:active {
+    background-color: #ff3333 !important;
+}
+
+/* FIN HEADER */
+
+/* DEBUT CAROUSEL */
+
+.carousel-inner {
+    margin-top: 57px;
+}
+
+/* Image 1 */
+#slider_1 {
+    max-height: 610px;
+}
+
+/* Image 2 */
+#slider_2 {
+    max-height: 610px;
+}
+
+/* Image 2 */
+#slider_3 {
+    max-height: 610px;
+}
+
+/* Chevron droit */
+.fa-angle-right {
+    font-size: 3em;
+    color: rgb(50, 50, 50);
+}
+
+/* Chevron gauche */
+.fa-angle-left {
+    font-size: 3em;
+    color: rgb(50, 50, 50);
+}
+
+/* Emplacement description carousel */
+.carousel-caption {
+    bottom: 175px;
+}
+
+/* Style du titre d'une slide */
+.style_title {
+    font-size: 2.5em;
+    text-shadow: 1px 1px 1px #000000; 
+}
+
+/* Style du texte d'une slide */
+.style_texte {
+    font-size: 1.2em;
+    text-shadow: 0.5px 0.5px 0.5px #000000;
+}
+
+/* Bannière responsive */
+.banner-responsive {
+    display: none;
+}
+
+/* FIN CAROUSEL */
+
+/* DEBUT JUMBOTRON */
+
+#jean-forteroche {
+    height: 300px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+/* Texte du "Qui suis-je ?" */
+.text-jumbotron {
+    font-size: 1.2em;
+}
+
+/* FIN JUMBOTRON */
+
+/* DEBUT DERNIERES PUBLICATIONS */
+
+/* Titre "Dernières publications :" */
+.title-publication {
+    text-align: center;
+}
+
+/* Date de publication */
+small {
+    margin-left: 20px;
+}
+
+/* DEBUT FOOTER */
+
+footer {
+    height: 50px;
+    border-top: 1px solid #ff3333; 
+}
+
+/* Texte "Suivez moi sur mes réseaux sociaux :" */
+.text-footer {
+    margin: 0px;
+}
+
+/* Réseaux sociaux */
+#social-media
+{
+    height: 50px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* Style des logos des réseaux sociaux */
+.style-logo
+{
+	padding: 0 10px 0 10px;
+	font-size: 1.5em;
+	color: #ff3333;
+	cursor:pointer;
+}
+
+/* FIN FOOTER */
+
+/* DEBUT PAGE "BILLET SIMPLE POUR L'ALASKA" */
+
+.style-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-left: 3px solid #ff3333;
+    background-color: #ffffff;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.chapter-title {
+    color: rgb(33, 37, 41);
+}
+
+.date-author {
+    font-style: italic;
+}
+
+.content {
+    margin-bottom: 0px;
+}
+
+.style-row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.style-link {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+}
+
+/* FIN PAGE "BILLET SIMPLE POUR L'ALASKA" */
+
+/* Container */
+.container-page {
+    margin-top: 57px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 100%;
+}
+
+/* Container page contact */
+.container-contact {
+    margin-top: 57px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 88.6vh;
+}
+
+/* Container page profile */
+.container-profile {
+    margin-top: 57px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 88.6vh;
+}
+
+/* Container page profile */
+.container-editprofile {
+    margin-top: 57px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 88.6vh;
+}
+
+/* Container page edition chapitre */
+.container-editionchapter {
+    margin-top: 57px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 100%;
+}
+
+/* Container page inscription */
+.container-register {
+    margin-top: 57px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 88.6vh;
+}
+
+/* Container page edit comment */
+.container-editcomment
+{
+    margin-top: 57px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    height: 88.6vh;
+}
+
+/* Titre "Formulaire de contact */
+.style-contact-title {
+    margin-bottom: 25px;
+}
+
+/* Style du message d'erreur sur la page d'inscription */
+.style-register-error {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* Style container commentaire */
+.style-comment {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-right: 0.5px solid #ff3333;
+    border-bottom: 0.5px solid #ff3333;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+/* Commentaires "Date modif" et "Signaler" */
+.comment-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.paragraphe-comment {
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1082px) {
+
+    #carouselIndicators {
+        display: none;
+    }
+
+    .banner-responsive {
+        display: block;
+        margin-top: 57px;
+    }
+
+    .title-banner {
+        position: absolute;
+        margin-top: -58px;
+        padding: 10px;
+        color: #ffffff;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.5);
+        font-size: 2em;
+        text-shadow: 1px 1px 1px #000000; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #navbarCollapse {
+        margin-left: 0px;
+    }
+
+    /* Container page contact */
+    .container-contact {
+        height: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+
+   /* Commentaires "Date modif" et "Signaler" */
+    .comment-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .paragraphe-comment {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 759px) {
+
+    .title-banner {
+        font-size: 1.8em;
+        margin-top: -54px;
+    }
+
+}
+
+@media screen and (max-width: 686px) {
+
+    .title-banner {
+        font-size: 1.5em;
+        margin-top: -48px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .style-link {
+        text-align: center;
+    }
+
+    .style-container {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+@media screen and (max-width: 575px) {
+    .style-container {
+        margin-top: 25px;
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+        border-left: 0px solid #ff3333;
+        border-bottom: 1px solid #ff3333;
+        background-color: #ffffff;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 574px) {
+
+    .title-banner {
+        font-size: 1.2em;
+        margin-top: -43px;
+    }
+
+}
+
+@media screen and (max-width: 510px) {
+
+    .text-footer {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 510px) {
+
+    .title-banner {
+        margin-top: -43px;
+    }
+
+}
+
+@media screen and (max-width: 463px) {
+
+    .title-banner {
+        margin-top: -66px;
+    }
+
+}
+
+@media screen and (max-width: 434px) {
+
+    /* Container */
+    .container-page {
+        height:100%;
+    }
+
+    #container-newchapter {
+        margin-top: 57px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        height: 100%;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .action-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .style-button {
+        float: none!important;
+        margin: 0px !important;
+    }
+
+    .btn-supprimer-0 {
+        border-radius: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px; 
+    }
+
+    .btn-approuver-0 {
+        border-radius: 0px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .btn-supprimer-1 {
+        border-radius: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .btn-annuler-1 {
+        border-radius: 0px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .btn-supprimer-2{
+        border-radius: 0px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .btn-annuler-2 {
+        border-radius: 0px;
+    }
+
+    .btn-approuver-2 {
+        border-radius: 0px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+}
+
+/* Iphone 5S */
+@media screen and (max-width: 320px) and (max-height: 568px)
+{
+    /* Container page contact */
+    .container-contact {
+        height: 135vh;
+    }
+
+    /* Container page profile */
+    .container-editprofile {
+        height: 100%;
+    }
+
+    /* Container page inscription */
+    .container-register {
+        height: 100%;
+    }
+}
+
+/* Iphone 4 */
+@media screen and (max-width: 320px) and (max-height: 480px)
+{
+    /* Container page contact */
+    .container-contact {
+        height: 160vh;
+    }
+
+    /* Container page profile */
+    .container-editprofile {
+        height: 100%;
+    }
+
+    /* Container page inscription */
+    .container-register {
+        height: 100%;
+    }
+}
+
