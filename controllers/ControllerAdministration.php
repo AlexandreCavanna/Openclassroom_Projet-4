@@ -27,7 +27,7 @@ class ControllerAdministration {
         {
             throw new Exception('Page introuvable');
         }
-        else if(isset($_GET['url']) == 'administration' AND ['slug'] == 'admin' AND $_SESSION['level'] == '2')
+        else if(isset($_GET['url']) == 'administration' AND $_SESSION['slug'] == 'admin' AND $_SESSION['level'] == '2')
         {
             if(isset($_GET['deletechapter']))
             {
